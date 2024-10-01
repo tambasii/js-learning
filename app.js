@@ -21,6 +21,7 @@
 // }
 
 let totalPrice = 8;
+let shippingCost;
 
 if (totalPrice <= 10) {
   shippingCost = 5;
@@ -30,4 +31,5 @@ if (totalPrice <= 10) {
   shippingCost = 0;
 }
 
-console.log("The shipping cost is " + shippingCost);
+//console.log("The shipping cost is " + shippingCost);
+console.log(`The shipping cost for you is ${shippingCost}`);
